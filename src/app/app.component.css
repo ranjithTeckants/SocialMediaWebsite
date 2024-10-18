@@ -1,0 +1,153 @@
+
+
+
+
+@media screen and (min-width: 601px) {
+    .desktop-screen{
+        display: flex;
+        justify-content: center;
+    }
+    .app-screen{
+        background-color: #cccccc1c;
+        width:600px;
+        box-shadow: 0px 2px 13px 5px rgba(0,0,0,0.32);
+        border-radius: 20px;
+    }
+    .Raw-Home-background{
+        background: linear-gradient(to bottom, #f4f2ed, #d78724);
+        width: 100%;
+        height: "auto"
+    }
+    .Raw-Home-header{
+        position: fixed;
+        background: #3b2b23;
+        box-shadow: 0px 2px 13px 5px rgba(0,0,0,0.32);
+        width:600px;
+        height:230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 5;
+    
+    }
+        .Raw-Home-body{
+           padding-top: 250px;
+           padding-left: 20px ;
+           padding-right: 20px ;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .app-screen{   
+        width:100%;
+        background-color: white;
+    }
+    .Raw-Home-background{
+        position: fixed;
+        background: linear-gradient(to bottom, #f4f2ed, #d78724);
+        width: 100%;
+        height: 100%;
+        overflow-x: scroll;
+    }
+    .Raw-Home-header{
+        position: fixed;
+        background: #3b2b23;
+        box-shadow: 0px 2px 13px 5px rgba(0,0,0,0.32);
+        width:100%;
+        height:230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 5;
+    
+    }
+    .Raw-Home-body{
+        padding: 10px;
+        margin-top: 250px;
+    }
+}
+
+
+
+.Raw-Header-Image{
+    width:400px;
+    height:auto;
+    object-fit: cover;
+}
+
+
+
+.home-categories-card{
+    width:90px;
+    height: 92px;
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 12px 12px 30px 0px rgba(150, 150, 154, 0.15);
+   position: relative;
+   cursor: pointer;
+   transition: all 0.1s ease;
+   border: 1px solid #ffffff;
+   margin-bottom: 10px;
+   display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+  .card-center-alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-categories-card-img{
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .card-text-align{
+   margin-top:20px
+  }
+
+  .home-categories-text{
+    color: #2E2E2E;
+    font-family: "Public Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.333px;
+  }
+
+  .home-text{
+    color: white;
+    text-align: center;
+    font-family: "Public Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  
+  .home-btn {
+    cursor: pointer; /* Makes it look like a clickable button */
+    display: inline-block;
+    border: none;
+    background-color: transparent; /* Or any color for the button */
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.home-btn:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add hover effect */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.home-btn:active {
+    transform: scale(0.98); /* Slightly reduce size on click */
+}

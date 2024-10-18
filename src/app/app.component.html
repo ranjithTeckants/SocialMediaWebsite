@@ -1,0 +1,31 @@
+<div class="desktop-screen">
+    <div class="app-screen">  
+        <div class="Raw-Home-background">
+             <div class="Raw-Home-header">
+                 <img class="Raw-Header-Image" src="../assets/Raw.png">
+             </div>
+             <div class="Raw-Home-body">
+              <div class="container-fluid">
+                <div class="row">
+                      <div class="col-lg-4 col-sm-4 col-6" *ngFor="let card of cards">
+                        <div class="card-center-alignment" >
+                          <div class="home-btn" (click)="onCardClick(card.name)">
+                          
+                          <div class="home-categories-card" >
+                                <div class="card-center-alignment">
+                                <img [src]="card.imageUrl" class="home-categories-card-img">
+                                </div>
+                          </div>
+                          <p class="home-text">{{card.name}}</p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+             </div>
+             <div class="Raw-Home-footer">
+
+             </div>
+        </div>
+    </div>
+</div>
